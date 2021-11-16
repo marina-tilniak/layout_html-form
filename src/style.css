@@ -1,1 +1,7 @@
-/* styles go here */
+.box {
+  margin-bottom: 20px;
+}
+
+.labels:not(:last-child) {
+  margin-bottom: 10px;
+}

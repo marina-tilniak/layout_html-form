@@ -1,7 +1,7 @@
 # HTML form
 Replace `<your_account>` with your Github username and copy the links to Pull Request description:
-- [DEMO LINK](https://<your_account>.github.io/layout_html-form/)
-- [TEST REPORT LINK](https://<your_account>.github.io/layout_html-form/report/html_report/)
+- [DEMO LINK](https://marina-tilniak.github.io/layout_html-form/)
+- [TEST REPORT LINK](https://marina-tilniak.github.io/layout_html-form/report/html_report/)
 
 > Follow [this instructions](https://github.com/mate-academy/layout_task-guideline#how-to-solve-the-layout-tasks-on-github)
 ___
@@ -17,7 +17,7 @@ Create HTML page with form. On form submit send form data to `https://mate-acade
   - Please add `for` attribute for each <label> and `id` to the field (it is important for tests)
 - Do not use tabs. Use 2 spaces for indentation
 - Most of the time you want each tag in new line
-- Form should have different inputs with such types:
+ - Form should have different inputs with such types:
   - [ ] text
   - [ ] number
   - [ ] email
@@ -27,12 +27,12 @@ Create HTML page with form. On form submit send form data to `https://mate-acade
   - [ ] range
   - [ ] time
   - [ ] color
-  - [ ] date
+  - [ ] date -->
 - Form should have textarea and select elements.
 - You should use every of this attribute at least one time
   - [ ] required
   - [ ] min
-  - [ ] max
+  - [ ] max -->
   - [ ] minlength
   - [ ] maxlength
   - [ ] multiple

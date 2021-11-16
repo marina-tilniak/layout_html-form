@@ -11,14 +11,11 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <script type="text/javascript" src="./main.js"></script>
-
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post"
       onsubmit="onSubmit()"
     >
-
       <fieldset class="box">
         <legend>Personal information</legend>
 
@@ -49,7 +46,6 @@
             >
           </label>
         </div>
-
 
         <div class="labels">
           <label for="age">
@@ -127,23 +123,23 @@
         <div class="labels">
           <span class="radio">Do you love cats?</span>
           <label class="radio" for="loveCatsYes">
-            Yes
             <input
               type="radio"
               name="cats"
               id="loveCatsYes"
               value="Yes"
             >
+            Yes
           </label>
 
           <label class="radio" for="loveCatsNo">
-            No
             <input
               type="radio"
               name="cats"
               id="loveCatsNo"
               value="No"
             >
+            No
           </label>
         </div>
 
@@ -180,7 +176,6 @@
               <option value="BMW">BMW</option>
               <option value="Audi">Audi</option>
               <option value="Lada">Lada</option>
-              <option disabled selected></option>
             </select>
           </label>
         </div>
@@ -213,9 +208,9 @@
         </div>
 
         <div class="labels">
-          <label for="recommnded">
+          <label for="recommended">
             Would you recommnded us?
-            <select name="recommnded" id="recommnded">
+            <select name="recommended" id="recommended">
               <option value="yes">yes</option>
               <option value="no">no</option>
             </select>
@@ -223,7 +218,9 @@
         </div>
       </fieldset>
 
-      <input class="box" type="submit">
+      <button class="box" type="submit"></button>
     </form>
+
+    <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
